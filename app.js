@@ -11,7 +11,7 @@ let divModoCursi = document.getElementsByClassName("modo_cursi")[0];
 btnNo.addEventListener('mouseenter' , function(e) {moverPosicionRandom(e.target)});
 
 btnSi.addEventListener('click', function(e){
-    alert('Sabia que dirías que si, YA QUIERO VERTE DE NUEVO, ACUERDATE QUE NOS TENEMOS QUE CASAR')
+    alert('Sabia que dirías que si, YA QUIERO VERTE')
 
     divModoCursi.style.display = 'block';
     const cancion = new Audio('img\\y2mate.com - La Bella y la Bestia  con letra  La Bella y la Bestia.mp3');
